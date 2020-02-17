@@ -19,6 +19,6 @@ Sample Work Flow:
 
 directory()
 tab1 <- read("filename")
-des1 <- design(tab1)
+des1 <- design(tab1) 
 tab1 <- trim(tab1)
 table(tab1,d=des1,type="cos",Ititle="practicetable")
