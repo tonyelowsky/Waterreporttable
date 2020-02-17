@@ -1,11 +1,8 @@
 Package: Waterreporttable
-Type: Package
 Title: Helps make report tables a cinch
 Version: 0.1.0
-Authors@R: person("Anthony Elowsky",email="tony.elowsky@gmail.com",
-                  role=c("cre"))
+Authors@R: person("Elowsky", "Anthony", email="tony.elowsky@gmail.com", role=c("cre"))
 Description: This package uses standard coding to create water tables so anyone can do it with ease.
-    Start by creating the directories() and go from there!
 Imports: ggplot2,gridExtra,gtable,grDevices,grid,utils
 License: What license is it under?
 Encoding: UTF-8
