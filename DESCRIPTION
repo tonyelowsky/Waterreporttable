@@ -1,0 +1,13 @@
+Package: Waterreporttable
+Type: Package
+Title: Helps make report tables a cinch
+Version: 0.1.0
+Author: Anthony Elowsky
+Maintainer: tony.elowsky@gmail.com
+Description: This package uses standard coding to create water tables so anyone can do it with ease.
+    Start by creating the directories() and go from there!
+Imports: ggplot2,gridExtra,gtable,grDevices,grid,utils
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.99.9001
