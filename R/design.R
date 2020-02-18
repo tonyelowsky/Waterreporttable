@@ -1,8 +1,8 @@
 design <- function(filename){
-  bold<-c(which(filename$design1=="bold"))
-  blue<-c(which(filename$design1=="blue"))
-  italic<-c(which(filename$design1=="italic"))
-  red<-c(which(filename$design1=="red"))
-  cbind(bold,blue,italic,red)
+  bold<-c(which(filename$design1=="bold"),NA)
+  blue<-c(which(filename$design1=="blue"),NA)
+  italic<-c(which(filename$design1=="italic"),NA)
+  red<-c(which(filename$design1=="red"),NA)
+  cbind(bold,blue,red,italic)
 
 }
