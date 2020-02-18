@@ -1,6 +1,10 @@
 
-shorten <- function(filename, c=c("all")){
-  l <- as.character(colnames(filename))
-  l <- gsub(" ","\n",l)
-  colnames(filename) <- l
+shorten <- function(filename, d="all"){
+  if(d=="all"){
+    gsub(" ","\n",colnames(filename))
+    }
+  else{
+    gsub(" ","\n",colnames(filename)[d])
+  }
+
 }
