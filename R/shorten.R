@@ -4,7 +4,7 @@ shorten <- function(filename, d="all"){
     gsub(" ","\n",colnames(filename))
     }
   else{
-    gsub(" ","\n",colnames(filename)[d])
+    gsub(" ","\n",colnames(filename)[c(d)])
   }
 
 }
