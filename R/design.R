@@ -5,6 +5,4 @@ design <- function(filename){
   red<-c(which(filename$design1=="red"),NA)
   columns <- filename$design2
   cbind(bold,blue,red,italic,columns)
-
-
 }
